@@ -1,57 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="upwork.css">
-    <link
-    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
-    rel="stylesheet"
-    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
-    crossorigin="anonymous"
-  />
 </head>
 <style>
-    *{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: Arial, sans-serif;
-}
-h6{
-    color:  #16b32bf5 !important;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif!important;
-}
-p{
-    font-size: 14px;
-}
-.faq-color{
-    color:  #16b32bf5; 
-    font-weight: 600;
- }
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: Arial, sans-serif;
+    }
 
+    .parent-container {
+        border: 1px solid rgba(0, 0, 0, 0.233);
+        width: 50%;
+        background-color: white;
+        padding: 40px 20px;
+        margin-top: 20px !important;
+        margin: 0 auto;
+        box-shadow: 0px 0px 3px;
+    }
+
+    h4 {
+        color: #16b32bf5 !important;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif !important;
+    }
+
+    p {
+        padding-top: 30px;
+        font-size: 14px;
+    }
+
+    .faq-color {
+        color: #16b32bf5;
+        font-weight: 600;
+    }
+
+    @media (max-width: 600px) {
+        .parent-container {
+            border: 1px solid rgba(0, 0, 0, 0.233);
+            width: 90%;
+            background-color: white;
+            padding: 40px 20px;
+            margin-top: 50px !important;
+        }
+    }
 </style>
+
 <body>
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12">
-                <div class="div">
-                    <div class="border col-md-7 px-md-4 px-4 py-4 bg-light shadow mt-3 mx-auto">
-                        <h6 class="pb-5 fw-bold">UPWORK</h6>
-                        <p>Hi Lala,</p>
-                        <p>You're all set! </p>
-                        <p>  We've released the funds to Abdullah Attached is a reciept for your records </p>
-                        <p> Amount released $100.00</p>
-                        <p>Your Contract for <a href="" class="faq-color">ayoadelala</a>ended</p>
-                        <p>Upwork also handles the 1099 paperwork requirements for US-based freelancers,so there's nothing else you need to do.  </p>
-                        <p>Thanks <br>The Upwork Team</p>
-                        <a href="" class="faq-color">See FAQs</a>
-                    </div>
-                </div>
-            </div>
-        </div>
+
+    <div class="parent-container">
+        <h4>UPWORK</h4>
+        <p><b> Hi Lala,</b></p>
+        <p>You're all set! </p>
+        <p> We've released the funds to Abdullah Attached is a reciept for your records </p>
+        <p> Amount released $100.00</p>
+        <p>Your Contract for <a href="#" class="faq-color">ayoadelala</a>ended</p>
+        <p>Upwork also handles the 1099 paperwork requirements for US-based freelancers,so there's nothing else you need
+            to do. </p>
+        <p>Thanks <br><br>The Upwork Team</p><br>
+        <a href="#" class="faq-color">See FAQs</a>
     </div>
-    
+
 </body>
+
 </html>

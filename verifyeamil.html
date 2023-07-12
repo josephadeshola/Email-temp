@@ -1,73 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./confirmemail.css">
-    <link
-    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
-    rel="stylesheet"
-    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
-    crossorigin="anonymous"
-  />
+    <title>verify-Email</title>
 </head>
 <style>
-    *{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: Arial, sans-serif;
-}
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: Arial, sans-serif;
+    }
 
- .get-style{
-    text-decoration: none !important;
-    color:  #16b32bf5 !important;  
- }
- a{
-    text-decoration: none !important;
-    color:  #16b32bf5 !important;
- }
- .btn{
-    background-color: #16b32bf5 !important;
-    color: #fff !important;
-    border-radius: 30px !important;
-}
-p{
-    font-size: 14px;
-}
-@media (max-width:600px) {
-    p{
-        font-size: 14px;
-    } 
-    button a{
+    .parent-container {
+        border: 1px solid rgba(0, 0, 0, 0.233);
+        width: 50%;
+        background-color: white;
+        padding: 40px 20px;
+        margin-top: 20px !important;
+        margin: 0 auto;
+        box-shadow: 0px 0px 3px;
+    }
+
+    .button-div {
+        margin: auto;
+        text-align: center;
+    }
+
+    .view-button {
+        border: none;
+        margin-top: 20px;
+        width: 30%;
+        height: 7vh;
+        background-color: #16b32bf5 !important;
+        color: #fff !important;
+        border-radius: 30px !important;
+    }
+
+
+    .get-style {
         text-decoration: none !important;
-        color:  #16b32bf5 !important;
-        font-size: 13px;
-     }  
-}
+        color: #16b32bf5 !important;
+    }
+
+    a {
+        text-decoration: none !important;
+        color: #16b32bf5 !important;
+        color: #fff !important;
+    }
+
+    h2 {
+        text-align: center;
+        padding: 0px 10px 20px;
+    }
+
+    h5 {
+        padding: 20px 0px;
+    }
+
+    p {
+        padding-top: 20px;
+        font-size: 14px;
+    }
+
+    @media (max-width:600px) {
+        p {
+            font-size: 14px;
+        }
+
+        .parent-container {
+            border: 1px solid rgba(0, 0, 0, 0.233);
+            width: 90%;
+            background-color: white;
+            padding: 40px 20px;
+            margin-top: 50px !important;
+        }
+
+        .view-button {
+            border: none;
+            width: 50%;
+            margin-top: 20px;
+            height: 7vh;
+            background-color: #16b32bf5 !important;
+            color: #fff !important;
+            border-radius: 30px !important;
+        }
+
+        a {
+            text-decoration: none !important;
+            color: #16b32bf5 !important;
+            color: #fff !important;
+        }
+
+    }
 </style>
+
 <body>
 
-    <div class="container">
-        <div class="row">
-            <div class="cols-sm-12">
-                <div class="div">
-                    <div class="border col-md-7 px-md-4 px-4 py-md-4 py-4 bg-light shadow mt-5 mx-auto">
-                      <h3 class="text-center fw-bold pb-3"> Mixpanel <span>|</span> Community</h3>
-                      <hr> 
-                      <h6 class="mt-3">Dear Abdullah,</h6>
-                      <p>Thank you for signing up with <a href="" class="get-style">Mixpanel Community</a> ! To complete the registration process and ensure that we have the correct email address on file, please confirm your email by clicking on the verification button below:</p>
-                        <p class="text-center"><button class="btn"><a href="[Verification Link]" class="fw-bold text-light">Verify Email Address</a></button></p>
-                     <p>Please note that this link is valid for the next <a href="" class="get-style">One</a> hours.</p> 
-                     <p>If you did not sign up for an account with <a class="get-style" href="">Mixpanel Community</a>, please disregard this email.</p>
-                     <p>By confirming your email address, you will gain access to exclusive features and receive important updates from us. If you have any questions or need assistance, please don't hesitate to contact our support team at <a class="get-style" href="[Email Address]">mixpanelCommu@gmail.com</a></p>
-                     <p>Thank you for choosing <a href="" class="get-style">Mixpanel Community</a>. We look forward to serving you!</p>
-                 
-                    </div>
-                </div>
-            </div>
-        </div>
+    <div class="parent-container">
+        <h2> Mixpanel <span>|</span> Community</h2>
+        <hr>
+        <h5 class="">Dear Abdullah,</h5>
+        <p>Thank you for signing up with <a href="#" class="get-style">Mixpanel Community</a> ! To complete the
+            registration process and ensure that we have the correct email address on file, please confirm your email by
+            clicking on the verification button below:</p>
+        <p class="button-div">
+            <button class="view-button "><a href="[Verification Link]" class="">Verify Email Address</a></button>
+        </p>
+        <p>Please note that this link is valid for the next <a href="#" class="get-style">One</a> hours.</p>
+        <p>If you did not sign up for an account with <a class="get-style" href="">Mixpanel Community</a>, please
+            disregard this email.</p>
+        <p>By confirming your email address, you will gain access to exclusive features and receive important updates
+            from us. If you have any questions or need assistance, please don't hesitate to contact our support team at
+            <a class="get-style" href="[Email Address]">mixpanelCommu@gmail.com</a>
+        </p>
+        <p>Thank you for choosing <a href="#" class="get-style">Mixpanel Community</a>. We look forward to serving you!
+        </p>
+
     </div>
+
 </body>
+
 </html>
